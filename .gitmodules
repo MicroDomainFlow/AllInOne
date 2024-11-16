@@ -1,0 +1,6 @@
+[submodule "Sample"]
+	path = Sample
+	url = https://github.com/MicroDomainFlow/Sample.git
+[submodule "MicroDomainFlowFramework"]
+	path = MicroDomainFlowFramework
+	url = https://github.com/MicroDomainFlow/Framework.git
