@@ -67,3 +67,23 @@
 [MicroDomainFlow.BaseFramework](https://www.nuget.org/packages/MicroDomainFlow.BaseFramework "MicroDomainFlow.BaseFramework")
 
 [MicroDomainFlow.BaseResources](https://www.nuget.org/packages/MicroDomainFlow.BaseResources "MicroDomainFlow.BaseResources")
+
+
+
+------------
+
+زمانی که شما مخزن AllInOne را به عنوان یک کلون (clone) روی لوکال خود پیاده می‌کنید، submodule‌ها به صورت پیش‌فرض کلون نمی‌شوند. برای کلون کردن مخزن AllInOne به همراه submodule‌های آن، نیاز به انجام چند مرحله اضافی دارید:
+
+
+کلون کردن مخطن اصلی:
+
+`git clone https://github.com/MicroDomainFlow/AllInOne.git`
+
+ورود به دایرکتوری مخزن:
+
+`cd AllInOne`
+
+بروزرسانی submodule‌ها:
+
+`git submodule update --init --recursive`
+
